@@ -1,0 +1,19 @@
+{
+  "name": "@just-moh-it/tiktoken-node-new-darwin-x64",
+  "version": "0.0.1",
+  "os": [
+    "darwin"
+  ],
+  "cpu": [
+    "x64"
+  ],
+  "main": "tiktoken-node-new.darwin-x64.node",
+  "files": [
+    "tiktoken-node-new.darwin-x64.node"
+  ],
+  "license": "MIT",
+  "engines": {
+    "node": ">= 10"
+  },
+  "repository": "https://github.com/Just-Moh-it/tiktoken-node-rs.git"
+}

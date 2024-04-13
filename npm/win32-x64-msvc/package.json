@@ -1,0 +1,19 @@
+{
+  "name": "@just-moh-it/tiktoken-node-new-win32-x64-msvc",
+  "version": "0.0.1",
+  "os": [
+    "win32"
+  ],
+  "cpu": [
+    "x64"
+  ],
+  "main": "tiktoken-node-new.win32-x64-msvc.node",
+  "files": [
+    "tiktoken-node-new.win32-x64-msvc.node"
+  ],
+  "license": "MIT",
+  "engines": {
+    "node": ">= 10"
+  },
+  "repository": "https://github.com/Just-Moh-it/tiktoken-node-rs.git"
+}
