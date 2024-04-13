@@ -1,7 +1,14 @@
 import test from 'ava'
+import { SpecialTokenAction, SupportedEncoding, getTokenizer } from '../index.js'
 
-import { sum } from '../index.js'
+const tokenizer = getTokenizer();
 
-test('sum from native', (t) => {
-  t.is(sum(1, 2), 3)
+test('exactNumTokens with Sydney', async (t) => {
+  const tokens = await tokenizer.exactNumTokens(
+    "Sydney",
+    SupportedEncoding.Cl100k,
+    SpecialTokenAction.NormalText,
+    {}
+  )
+  t.is(tokens, 2)
 })
