@@ -27,6 +27,6 @@
     "universal": "napi universal",
     "version": "napi version"
   },
-  "packageManager": "yarn@4.1.1",
+  "packageManager": "yarn@1.22.22",
   "repository": "https://github.com/Just-Moh-it/tiktoken-node-rs.git"
 }
