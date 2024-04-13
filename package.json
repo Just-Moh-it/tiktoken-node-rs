@@ -28,5 +28,5 @@
     "version": "napi version"
   },
   "packageManager": "yarn@1.22.22",
-  "repository": "https://github.com/Just-Moh-it/tiktoken-node-rs.git"
+  "repository": "https://github.com/Just-Moh-it/tiktoken-node-rs"
 }
